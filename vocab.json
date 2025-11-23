@@ -1,0 +1,179 @@
+[
+  {
+    "category": "Family & Relationships",
+    "image": "https://images.unsplash.com/photo-1581093450021-4a7360e9a298?q=80&w=2070&auto=format&fit=crop",
+    "word": "relative",
+    "translations": "kerabat, terkait, tergantung",
+    "pronunciation": "/ˈrɛlətɪv/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "meaning": "Seseorang yang terhubung melalui hubungan darah atau perkawinan.",
+        "example": {
+          "en": "He is a relative of the president.",
+          "id": "Dia adalah kerabat dari presiden."
+        }
+      },
+      {
+        "meaning": "Sesuatu yang terkait dengan hal lain.",
+        "example": {
+          "en": "The price is relative to the quality.",
+          "id": "Harga itu terkait dengan kualitas."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726a?q=80&w=2070&auto=format&fit=crop",
+    "word": "algorithm",
+    "translations": "algoritma",
+    "pronunciation": "/ˈælɡərɪðəm/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "meaning": "Proses atau serangkaian aturan untuk menyelesaikan masalah, terutama oleh komputer.",
+        "example": {
+          "en": "A search engine uses a complex algorithm.",
+          "id": "Mesin pencari menggunakan algoritma yang kompleks."
+        }
+      }
+    ]
+  },
+  {
+    "category": "Nature",
+    "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=2070&auto=format&fit=crop",
+    "word": "photosynthesis",
+    "translations": "fotosintesis",
+    "pronunciation": "/ˌfoʊtoʊˈsɪnθəsɪs/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "meaning": "Proses tumbuhan mengubah cahaya menjadi energi kimia.",
+        "example": {
+          "en": "Photosynthesis is vital for life on Earth.",
+          "id": "Fotosintesis sangat penting untuk kehidupan di Bumi."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "analyze",
+    "translations": "menganalisis",
+    "pronunciation": "/ˈænəlaɪz/",
+    "partOfSpeech": "verb",
+    "definitions": [
+      {
+        "meaning": "Memeriksa sesuatu secara detail.",
+        "example": {
+          "en": "Researchers analyze the data.",
+          "id": "Para peneliti menganalisis data tersebut."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "approach",
+    "translations": "pendekatan, mendekati",
+    "pronunciation": "/əˈproʊtʃ/",
+    "partOfSpeech": "noun/verb",
+    "definitions": [
+      {
+        "meaning": "Cara untuk mendekati masalah.",
+        "example": {
+          "en": "We need a new approach to this problem.",
+          "id": "Kita perlu pendekatan baru untuk masalah ini."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "assess",
+    "translations": "menilai",
+    "pronunciation": "/əˈsɛs/",
+    "partOfSpeech": "verb",
+    "definitions": [
+      {
+        "meaning": "Menentukan kualitas atau nilai.",
+        "example": {
+          "en": "The committee will assess the candidate.",
+          "id": "Komite akan menilai kandidat tersebut."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "benefit",
+    "translations": "manfaat",
+    "pronunciation": "/ˈbɛnɪfɪt/",
+    "partOfSpeech": "noun/verb",
+    "definitions": [
+      {
+        "meaning": "Keuntungan atau manfaat.",
+        "example": {
+          "en": "The program provides many benefits.",
+          "id": "Program itu memberikan banyak manfaat."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "concept",
+    "translations": "konsep",
+    "pronunciation": "/ˈkɒnsɛpt/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "meaning": "Ide umum atau gagasan.",
+        "example": {
+          "en": "The concept was hard to explain.",
+          "id": "Konsep itu sulit dijelaskan."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "derive",
+    "translations": "berasal, mendapatkan",
+    "pronunciation": "/dɪˈraɪv/",
+    "partOfSpeech": "verb",
+    "definitions": [
+      {
+        "meaning": "Mendapatkan sesuatu dari sumber.",
+        "example": {
+          "en": "Many English words derive from Latin.",
+          "id": "Banyak kata bahasa Inggris berasal dari Latin."
+        }
+      }
+    ]
+  },
+  {
+    "category": "TOEFL",
+    "image": "",
+    "word": "evaluate",
+    "translations": "menilai",
+    "pronunciation": "/ɪˈvæljueɪt/",
+    "partOfSpeech": "verb",
+    "definitions": [
+      {
+        "meaning": "Menilai atau menentukan nilai.",
+        "example": {
+          "en": "Teachers evaluate student performance.",
+          "id": "Guru menilai performa siswa."
+        }
+      }
+    ]
+  }
+]
