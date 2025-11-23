@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Login — SuperVocab</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="login-body">
 
-  <div class="login-container">
-    <h1 class="login-title">SuperVocab</h1>
-    <p class="login-subtitle">Masuk untuk mulai belajar vocabulary.</p>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="brand">SuperVocab</h1>
+        <p class="lead">Masuk untuk mulai belajar vocabulary. Ringan, cepat, dan fokus.</p>
+      </div>
+    </section>
 
-    <form class="login-box" onsubmit="return loginUser(event)">
-      <input type="email" id="email" placeholder="Email" required class="login-input">
-      <input type="password" id="password" placeholder="Password" required class="login-input">
+    <aside class="card login-card" aria-labelledby="login-title">
+      <h2 id="login-title" class="card-title">Masuk</h2>
 
-      <button class="btn primary full" type="submit">Masuk</button>
+      <form id="loginForm" class="login-form" onsubmit="return loginUser(event)" novalidate>
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" type="email" placeholder="Email" required class="input">
 
-      <p class="muted small" style="margin-top:12px;">Belum punya akun? <a href="#" class="link">Daftar</a></p>
-    </form>
+        <label class="sr-only" for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" required class="input">
 
-    <p class="muted small" style="margin-top:40px; text-align:center;">
-      <a href="/admin/" class="link">Login Admin</a>
-    </p>
-  </div>
+        <button type="submit" class="btn primary full">Masuk</button>
+
+        <div class="row small muted">
+          <span>Belum punya akun?</span>
+          <a class="link" href="#">Daftar</a>
+        </div>
+      </form>
+
+      <div class="admin-link muted small">
+        <a href="/admin/" class="link">Login Admin</a>
+      </div>
+    </aside>
+  </main>
 
   <script src="script.js"></script>
-
 </body>
 </html>
