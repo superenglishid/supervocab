@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperVocab Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <h1>SuperVocab Dashboard</h1>
+  <p class="subtitle">Manage decks — import, preview, export.</p>
+</header>
+
+<main class="layout">
+
+  <!-- LEFT SIDE -->
+  <section class="card section">
+    <div class="row between">
+      <h2 class="card-title">Decks</h2>
+
+      <div>
+        <button id="btn-import" class="btn primary">Import JSON</button>
+        <input type="file" id="file-input" accept=".json" hidden>
+      </div>
+    </div>
+
+    <div id="deck-list" class="deck-list"></div>
+  </section>
+
+  <!-- RIGHT SIDE -->
+  <aside class="aside">
+
+    <div class="card">
+      <h3 class="card-title">Stats</h3>
+      <p class="stat">Decks: <strong id="stat-decks">0</strong></p>
+      <p class="stat">Total Words: <strong id="stat-words">0</strong></p>
+    </div>
+
+    <div class="card">
+      <h3 class="card-title">Quick Actions</h3>
+      <button id="btn-export" class="btn dark full">Export JSON</button>
+      <button id="btn-clear" class="btn light full">Clear localStorage</button>
+    </div>
+
+  </aside>
+
+</main>
+
+<section class="card preview">
+  <h3 class="card-title">Preview</h3>
+  <div id="preview-box" class="preview-box">
+    <p class="muted small">Select a deck to preview first card.</p>
+  </div>
+</section>
+
+</body>
+</html>
