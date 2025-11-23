@@ -69,3 +69,16 @@ function registerUser(e){
   window.location.href = '/flashcard/flashcard.html';
   return false;
 }
+
+function togglePassword(id, el){
+  const input = document.getElementById(id);
+
+  if (input.type === "password") {
+    input.type = "text";
+    el.textContent = "🙈";  // icon when showing
+  } else {
+    input.type = "password";
+    el.textContent = "👁️"; // icon when hidden
+  }
+}
+
