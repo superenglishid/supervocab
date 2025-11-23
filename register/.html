@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daftar — SuperVocab</title>
+  <!-- menggunakan style.css yang sudah ada di root supaya styling konsisten -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="login-body">
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="brand">SuperVocab</h1>
+        <p class="lead">Buat akun supaya bisa mulai belajar. Gratis untuk uji coba.</p>
+      </div>
+    </section>
+
+    <aside class="card login-card" aria-labelledby="register-title">
+      <h2 id="register-title" class="card-title">Daftar Akun</h2>
+
+      <form id="registerForm" class="login-form" onsubmit="return registerUser(event)" novalidate>
+        <input id="r-name" type="text" placeholder="Nama lengkap" required class="input">
+        <input id="r-email" type="email" placeholder="Email" required class="input">
+        <input id="r-password" type="password" placeholder="Password (min 6 karakter)" minlength="6" required class="input">
+        <input id="r-password2" type="password" placeholder="Konfirmasi password" required class="input">
+
+        <button type="submit" class="btn primary full">Daftar</button>
+
+        <div class="row small muted">
+          <span>Sudah punya akun?</span>
+          <a class="link" href="/index.html">Masuk</a>
+        </div>
+      </form>
+
+      <div class="admin-link muted small" style="margin-top:12px;">
+        <a href="/admin/" class="link">Login Admin</a>
+      </div>
+
+      <div style="margin-top:12px;" class="muted small">
+        <p>Referensi prototipe: <a href="file:///mnt/data/vocab card 01.html">vocab card prototype</a></p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="/register.js"></script>
+</body>
+</html>
