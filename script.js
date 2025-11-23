@@ -1,17 +1,17 @@
-function loginUser(e) {
+function loginUser(e){
   e.preventDefault();
+  const email = document.getElementById('email').value.trim();
+  const pw = document.getElementById('password').value.trim();
 
-  const email = document.getElementById("email").value;
-  const password = document.getElementById("password").value;
-
-  // DUMMY LOGIN — nanti bisa diganti Supabase
-  if (email && password) {
-    // Simpan sesi user
-    localStorage.setItem("sv_user", email);
-
-    // Redirect ke flashcard app
-    window.location.href = "/flashcard/flashcard.html";
-  } else {
-    alert("Isi email & password!");
+  if(!email || !pw){
+    alert('Isi email dan password dulu ya.');
+    return false;
   }
+
+  // dummy auth: simpan user di localStorage (ganti nanti dengan Supabase)
+  localStorage.setItem('sv_user', JSON.stringify({ email, loggedAt: Date.now() }));
+
+  // redirect ke halaman belajar
+  window.location.href = '/flashcard/flashcard.html';
+  return false;
 }
