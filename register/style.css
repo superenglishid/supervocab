@@ -91,6 +91,27 @@ body{
   transform: translateY(-1px);
 }
 
+/* Password visibility toggle */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #64748B;
+  user-select: none;
+}
+
+.password-wrapper .toggle-password:hover {
+  color: #3B82F6;
+}
+
+
 /* buttons */
 .btn{
   display:inline-block;
